@@ -49,7 +49,7 @@
     	display: none;
     }
     */
-    .box,.blocks,.carousel,.heading,.contact,.contact-form,.img-fluid{
+    .box,.blocks,.carousel,.heading,.contact,.contact-form,.img-fluid,div.contact h2.tm-section-title{
     	display: none;
     }
     .tm-footer{
