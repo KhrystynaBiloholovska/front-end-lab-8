@@ -1,0 +1,141 @@
+@media print{
+	nav{
+        display: none; 
+       } 
+    .tm-section-description{
+    	width: 550px;
+
+    }
+    .tm-main-content{
+    	padding: 0px;
+    	margin: 0px;
+    	width: 115%;
+    }
+    .tm-banner-inner{
+    	height: 200px;
+    	padding-bottom: 0px; 
+    	
+    }
+    .flex-2-col{
+    	display: block;
+    }
+    /*
+    .tm-main-content{
+    	padding: 0px;
+    	margin: 0px;
+    	width: 115%;
+    }*/
+    .pad{
+    	padding-top: 0px;
+    	padding-left: 10px;
+    	padding-bottom: 0px;
+    }
+    .tm-section-title{
+    	color: blue !important;
+    	
+    }
+    /*
+    .pad{
+    	padding-top: 0px;
+    	padding-left: 10px;
+    	padding-bottom: 0px;
+    }
+    /*
+    .flex-2-col{
+    	display: block;
+    }*/
+    /*
+    .tm-content-box{
+    	display: none;
+    }
+    */
+    .box,.blocks,.carousel,.heading,.contact,.contact-form,.img-fluid{
+    	display: none;
+    }
+    .tm-footer{
+    	display: block;
+    }
+}
+@media screen {
+/* 2завдання*/	
+li.box{
+border-bottom: none !important;
+border-right: none !important;
+}
+li.box:nth-child(3n){
+border-right: 1px solid silver !important;
+}
+li.box:nth-last-child(-n+3){
+border-bottom: 1px solid silver !important;
+}
+/*3завдання*/
+p:first-letter{
+	color:#76cdd7;
+	font-size:30px; 
+}
+/*4 завдання */
+.tm-sidebar,.tm-content-box{
+
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+/*5завдання*/
+.gallery-container a img{
+	border: 2px 2px silver;	
+	}
+/*6 завдання*/
+.carousel-item:first-child h2{
+color: gainsboro;
+letter-spacing: 5px;
+}
+/* 7 завдання */
+ h2+p {
+font-style: italic;
+}
+/* 8 завдання*/
+.tm-section-description {
+	text-indent: 20px;
+	line-height: 25px;
+}
+/*9завдання */
+.heading a{
+	color:black;
+}
+.heading a:visited{
+	color: silver;
+}
+.heading a:hover{
+	color: Turquoise;
+}
+
+li a.text:after{
+	vertical-align: super;
+	content: " New ";
+	color: red;
+
+}
+section.heading h2{
+	text-align: center;
+	color: blue;
+}
+/*10 завдання*/
+li.box:nth-child(odd){
+	background-color: #dbd9d9;
+}
+section.blocks div.tm-content-box p:first-letter{
+	color: black;
+}
+/* 11 завдання*/
+.tm-nav-item {
+	border-bottom: 1px solid silver;
+}
+.tm-nav-item:last-child{
+    border: none;
+}
+
+/*div.tm-sidebar nav.tm-main-nav a.tm-nav-item-link {
+    border: 1px 1px silver;
+}*/
+input[type="text"], button.submit-btn{
+    color: red;
+}
+}
