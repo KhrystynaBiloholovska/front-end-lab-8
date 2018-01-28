@@ -61,6 +61,7 @@
 li.box{
 border-bottom: none !important;
 border-right: none !important;
+border-radius: none;
 }
 li.box:nth-child(3n){
 border-right: 1px solid silver !important;
