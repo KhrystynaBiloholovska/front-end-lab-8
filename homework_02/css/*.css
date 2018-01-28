@@ -1,4 +1,9 @@
 @media print{
+	#home {
+    padding: 0px;
+    margin: 0px;
+    height: 20%;
+}
 	nav{
         display: none; 
        } 
